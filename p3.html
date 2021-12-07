@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bhuvan Srivastava | Code 2 Portfolio</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+
+  <body>
+    <!-- navigation menu -->
+    <div class="nav">
+      <h1>Bhuvan Srivastava</h1>
+      <ul>
+        <li>Project <a href="p1.html">#1: Lost & Found</a></li>
+        <li>Project <a href="p2.html">#2: Face Generator</a></li>
+        <li>Project <a href="p3.html">#3: Experimental Clock</a></li>
+        <li>Project <a href="p4.html">#4: Exquisite Corpse</a></li>
+        <li>Project <a href="p5.html">#5: Optical Illusion</a></li>
+        <li>Project <a href="p6.html">#6: Data Potrait</a></li>
+        <li>Project <a href="p7.html">#7: Autobiographical Game</a></li>
+        <li>Project <a href="p8.html">#8: Experimental Camera</a></li>
+        <li>Project <a href="p9.html">#9: Consentful Interface</a></li>
+      </ul>
+    </div>
+
+    <!-- main content -->
+    <div class="content">
+      <!-- 1. give your project  a titile -->
+
+      <h1>
+        Experimental Clock
+      </h1>
+
+      <!-- 2. embed your p5 sketch -->
+
+      <div class="fullwidth">
+        <!-- below width and height refers to the dimensions of your sketch-->
+
+        <iframe
+          allow="camera"
+          width="400px"
+          height="400px"
+          src="https://editor.p5js.org/srivb426/full/MkF3tqrV5"
+        ></iframe>
+        
+      </div>
+
+      <!-- 3. write a short description to describe what the work is about -->
+      <h1>
+        Description
+      </h1>
+
+      <p>
+        <u>NOTE: refresh for different noodle effects<br></u><br>
+        This is an experimental clock that captures my own sense of the abstract and experiential time-keeping 
+        that we all seem to follow. This abstraction of time is based purely on our experience of our moment-to-moment life and has
+        often been the topic of both science and philosophy. <br><br>
+        Einstein once said "Einstein once said “sit with a pretty girl for an hour and it feels like a minute; sit on a hot stove 
+        for a minute and it feels like many hours". My hot girl is food of course and my internal time-keeping for the day runs 
+        almost sub-consciously based on the meals I've had and when I've had them. Unless i have my breakfast it doesn't feel like it's 
+        10 am, nevermind that it's noon aready and unless I've had lunch it doesn't feel like it's 2 pm. 
+        I have captured this experiential encapsulation of time into the single moment, in my clock, by miniaturizing the day (which runs on my meal clock)
+        into an hour. The hour into a minute, while seconds move the same as an experience of enjoying food. <br><br>
+        The time of the day has been completely abstracted for the user's experience on the mouse movement as a gradient for daylight. 
+        Minutes are shown as meals, in gaps of 10 minutes. They depict the hours experienced as a function of thhe last meal.
+        The seconds are shown in real-time (seconds) as a spaghetti noddle, highlighting my forever obsession with food. 
+      </p>
+
+      <!-- 4. reflection -->
+      <h1>
+        Design Process
+      </h1>
+
+      <p>
+        I first drew out the concept as sketches on how I could use the idea of meals as an internal and automatic time-keeping mechanism.
+        Once i had the idea finalised, i re-drew the final sketch (below), which I would base my p5 sketch on. I used perlin noise for the 
+        wiggle of the noodle.
+      </p>
+
+      <div class="fullwidth">
+        <img
+          src="https://cdn.glitch.me/70033b14-2838-4d1e-9c8f-9701cb0e88a6%2FIMG_3267.JPG?v=1638478209182"
+        />
+      </div>
+
+      
+
+      <!-- 4. reflection -->
+      <h1>
+        Reflection
+      </h1>
+      
+      <p>
+        This assignment helped me acquire new skills and a new-found appreciation of mathematics all around us, which can help us
+        code nature-identical phenomena. It also helped me grasp how real-time values can be used to make our sketch respond to the 
+        live time of the day using the hour(), minute(), second(), millis() and frameCount() functions. 
+      </p>
+      
+       <!-- 5. reflection -->
+      <h1>
+        Credits
+      </h1>
+      
+      <p>
+        Xin Xin and Katherine Moriwaki's Critical Computation tutorials on YouTube and Sean's Lab session helped with this assignments. <br>
+        Sean helped me with the mathematics for the perlin noise used in the wiggle of the noodle, in making it look realistic in its movement.<br>
+        
+        Below is the reference for perlin noise used: <br>
+        https://p5js.org/examples/math-noise-wave.html <br><br>
+        Meal images are free-stock images.
+      </p>
+      
+    </div>
+  </body>
+</html>
